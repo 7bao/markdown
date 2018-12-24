@@ -125,14 +125,14 @@
    >
    > ```mermaid
    > gantt
-   >         dateFormat  MM-D
+   >         dateFormat  YYYY-MM-DD
    >         title 架构甘特图
    > 
    >         section 开发
-   >         设备初始化模块:	done,p1, 1d
-   >         路由功能模块:        p2,after p1, 1d
-   >         网络协议模块:        p3,after p2, 1d
-   >         TTDP功能模块:      active, p4,after p3, 1d
+   >         设备初始化模块:	     p1,2018-11-01,2018-11-02 
+   >         路由功能模块:           p2,after p1, 1d
+   >         网络协议模块:           p3,after p2, 1d
+   >         TTDP功能模块:          active, p4,after p3, 1d
    > ```
    >
    > <center>图 2.1 协议架构甘特图</center>
@@ -169,15 +169,11 @@
    >
    > - Quality of Service and Scheduling
    > - Port-Based VLAN
-   > - IEEE 802.1Q VLAN
-   > - Double-Tagging
    > - Jumbo Frame Support
    > - Port Trunking/Aggregation
    > - Rate Control
    > - Protected Ports
    > - Port Mirroring
-   > - IGMP Snooping
-   > - MLD Snooping
    > - IEEE 802.1X Port-Based Security
    > - DoS Attack Prevention
    > - Software Reset
@@ -231,7 +227,6 @@
    >     IP---IEEE802.1
    >     IP---IEEE802.2
    >     IP---IEEE802.11
-   > 
    > ```
    >
    > <center>图 2.2 网络协议</center>
@@ -256,6 +251,10 @@
 3. 小结
 
    > 　　主要介绍了 IEC 61375-2-5协议的列车软件架构设计。软件设计由四个部分组成，包括设备初始化模块、路由器功能模块、网络协议模块和TTDP(列车拓扑发现协议)功能模块。详细阐述了每个模块的模块分解、程序组成和完成的具体功能，用来实现了以太网通信功能和TTDP协议。对IEC 61375-2-5协议定义的列车网络拓扑发现协议进行了设计。
+   >
+   >
+   >
+   >
 
 
 

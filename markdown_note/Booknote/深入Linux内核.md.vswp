@@ -1,0 +1,9 @@
+vnote_backup_file_826537664 /home/bqq/book/markdown/markdown_note/Booknote/深入Linux内核.md
+# 深入Linux内核
+## 第八章 虚拟文件系统
+> 元数据
+> 文件系统的目录层次结构
+> 树模型
+> 容器
+> 散列表 hash map
+> 
