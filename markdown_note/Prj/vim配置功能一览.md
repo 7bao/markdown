@@ -12,4 +12,6 @@
 ## vim配置语法
 ## vim快捷键定义
 
+> nw切换窗口
+
 [参考网址](https://github.com/yangyangwithgnu/use_vim_as_ide)
